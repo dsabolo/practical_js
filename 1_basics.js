@@ -91,6 +91,8 @@ Boolean("Hola");             //true
  true||true;                //return true
  true||false;               //return true
  false||false;              //return false
+ var defaultPrice;
+ var price  = defaultPrice || 10;      //if defaultPrice exist and has value, asign defaultPrice to price. Negative case asign 10.
 
  //Equality comparation
  var answer = 5;
